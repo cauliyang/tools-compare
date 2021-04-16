@@ -19,15 +19,21 @@ The project aim to compare the performnace for several kinds of tools used to de
 [ASimulatoR](https://github.com/biomedbigdata/ASimulatoR) is used to create benchmark data to evaluate the performace of the tools mentioned above. 
 
 ### 2.3 Test Tools for simple data 
+ 
+- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
+- [ ] [MAJIQ](https://majiq.biociphers.org/)
+- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
+- [ ] [SplAdder](https://github.com/ratschlab/spladder)
+- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
+- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
-- [x] [MISO](http://hollywood.mit.edu/burgelab/miso/)
- - [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) | [Documentation](https://github.com/Xinglab/rmats-turbo/blob/v4.1.1/README.md)
- - [ ] [MAJIQ](https://majiq.biociphers.org/)
- - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
- - [ ] [SplAdder](https://github.com/ratschlab/spladder)
- - [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
- - [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
+### 2.4 Construct Snakemake Workflow 
+
+- [ ] Creat simulated data 
+- [ ] Create Rna-align rul
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDEyNjcwNSwtMTU1OTExMjUwMCwtOT
-I4MjI3MDgsLTU5OTgyNDAwNCwyNzIzMzU1MTddfQ==
+eyJoaXN0b3J5IjpbOTAzNjkxNjE5LC0xNTU5MTEyNTAwLC05Mj
+gyMjcwOCwtNTk5ODI0MDA0LDI3MjMzNTUxN119
 -->
