@@ -4,7 +4,7 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 ## 2. Program Plan 
 
-### 2.1 Installation of Software
+### 2.1  Installation of Software
 
  - [x] [MISO](http://hollywood.mit.edu/burgelab/miso/) | [==Documentation==](https://miso.readthedocs.io/en/fastmiso/#using-miso-on-a-cluster)
  - [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) | [==Documentation==](https://github.com/Xinglab/rmats-turbo/blob/v4.1.1/README.md)
@@ -21,6 +21,6 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 ### 2.3 TODO..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE1MTAzMDAsLTU5OTgyNDAwNCwyNz
-IzMzU1MTddfQ==
+eyJoaXN0b3J5IjpbLTkyODIyNzA4LC01OTk4MjQwMDQsMjcyMz
+M1NTE3XX0=
 -->
