@@ -30,7 +30,7 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 ### 2.4 Construct Snakemake Workflow 
 
-![Snakemake](https://snakemake-wrappers.readthedocs.io/en/stable/) is used to construct workflow. 
+[![Snakemake](https://img.shields.io/badge/snakemake-≥5.7.0-brightgreen.svg?style=flat-square)](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst) is used to construct workflow. 
 
 - [ ] Creat simulated data 
 - [ ] Create Rna-align rule 
@@ -39,7 +39,7 @@ The project aim to compare the performnace for several kinds of tools used to de
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODM4OTU5NCwtNDkwMzc5OTgzLDY2Mz
-gyNjc1NSwtMTMyMDcwODI5LDg4Mzg2NzM3MSwtMTU1OTExMjUw
-MCwtOTI4MjI3MDgsLTU5OTgyNDAwNCwyNzIzMzU1MTddfQ==
+eyJoaXN0b3J5IjpbLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2Nj
+M4MjY3NTUsLTEzMjA3MDgyOSw4ODM4NjczNzEsLTE1NTkxMTI1
+MDAsLTkyODIyNzA4LC01OTk4MjQwMDQsMjcyMzM1NTE3XX0=
 -->
