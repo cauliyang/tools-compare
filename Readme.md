@@ -9,7 +9,7 @@ The project aim to compare the performance for several kinds of tools used to de
  - [x] [MISO](http://hollywood.mit.edu/burgelab/miso/) | [Documentation](https://miso.readthedocs.io/en/fastmiso/#using-miso-on-a-cluster)
  - [x]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) | [Documentation](https://github.com/Xinglab/rmats-turbo/blob/v4.1.1/README.md)
  - [x] [MAJIQ](https://majiq.biociphers.org/) | [Documentation](https://biociphers.bitbucket.io/majiq/MAJIQ.html#builder)
- - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/) | [Documentation]
+ - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/) | [Documentation](https://davidaknowles.github.io/leafcutter/articles/Installation.html)
  - [ ] [SplAdder](https://github.com/ratschlab/spladder) | [Documentation]
  - [ ] [Jum](https://github.com/qqwang-berkeley/JUM) | [Documentation]
  - [ ] [Whippet](https://github.com/timbitz/Whippet.jl) | [Documentation]
@@ -39,8 +39,8 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NTg5NjQxLDY1NTY0OTc3NywtMTM4OT
-EzNTY4OSwtNDkwMzc5OTgzLDY2MzgyNjc1NSwtMTMyMDcwODI5
-LDg4Mzg2NzM3MSwtMTU1OTExMjUwMCwtOTI4MjI3MDgsLTU5OT
-gyNDAwNCwyNzIzMzU1MTddfQ==
+eyJoaXN0b3J5IjpbMjA4OTUwMTc5OCwxOTY1ODk2NDEsNjU1Nj
+Q5Nzc3LC0xMzg5MTM1Njg5LC00OTAzNzk5ODMsNjYzODI2NzU1
+LC0xMzIwNzA4MjksODgzODY3MzcxLC0xNTU5MTEyNTAwLC05Mj
+gyMjcwOCwtNTk5ODI0MDA0LDI3MjMzNTUxN119
 -->
