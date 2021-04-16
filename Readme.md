@@ -31,9 +31,12 @@ The project aim to compare the performnace for several kinds of tools used to de
 ### 2.4 Construct Snakemake Workflow 
 
 - [ ] Creat simulated data 
-- [ ] Create Rna-align rul
+- [ ] Create Rna-align rule 
+- [ ] Create Run-tools rules
+- [ ] Create evaluation rules 
+- [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAzNjkxNjE5LC0xNTU5MTEyNTAwLC05Mj
+eyJoaXN0b3J5IjpbODgzODY3MzcxLC0xNTU5MTEyNTAwLC05Mj
 gyMjcwOCwtNTk5ODI0MDA0LDI3MjMzNTUxN119
 -->
