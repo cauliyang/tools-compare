@@ -10,7 +10,7 @@ The project aim to compare the performance for several kinds of tools used to de
  - [x]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) | [Documentation](https://github.com/Xinglab/rmats-turbo/blob/v4.1.1/README.md)
  - [x] [MAJIQ](https://majiq.biociphers.org/) | [Documentation](https://biociphers.bitbucket.io/majiq/MAJIQ.html#builder)
  - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/) | [Documentation](https://davidaknowles.github.io/leafcutter/articles/Installation.html)
- - [ ] [SplAdder](https://github.com/ratschlab/spladder) | [Documentation]
+ - [ ] [SplAdder](https://github.com/ratschlab/spladder) | [Documentation](https://spladder.readthedocs.io/en/latest/general.html)
  - [ ] [Jum](https://github.com/qqwang-berkeley/JUM) | [Documentation]
  - [ ] [Whippet](https://github.com/timbitz/Whippet.jl) | [Documentation]
 
@@ -39,7 +39,7 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA4OTUwMTc5OCwxOTY1ODk2NDEsNjU1Nj
+eyJoaXN0b3J5IjpbMTE4NjM4OTU3MSwxOTY1ODk2NDEsNjU1Nj
 Q5Nzc3LC0xMzg5MTM1Njg5LC00OTAzNzk5ODMsNjYzODI2NzU1
 LC0xMzIwNzA4MjksODgzODY3MzcxLC0xNTU5MTEyNTAwLC05Mj
 gyMjcwOCwtNTk5ODI0MDA0LDI3MjMzNTUxN119
