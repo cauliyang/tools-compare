@@ -6,7 +6,7 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 ### 2.1 Installation of Software
 
- - [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+ - [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/) [==Documentation==](https://miso.readthedocs.io/en/fastmiso/#using-miso-on-a-cluster)
  - [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html)
  - [ ] [MAJIQ](https://majiq.biociphers.org/)
  - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
@@ -21,5 +21,5 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 ### 2.3 TODO..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjcyMzM1NTE3XX0=
+eyJoaXN0b3J5IjpbNTEzOTcxNDEyLDI3MjMzNTUxN119
 -->
