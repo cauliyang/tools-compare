@@ -1,6 +1,6 @@
 # 1. Project Description 
 
-The project aim to compare the performnace for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
+The project aim to compare the performance for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
 
 ## 2. Program Plan 
 
@@ -16,7 +16,7 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 ### 2.2 Create Test Data 
 
-[ASimulatoR](https://github.com/biomedbigdata/ASimulatoR) is used to create benchmark data to evaluate the performace of the tools mentioned above. 
+[ASimulatoR](https://github.com/biomedbigdata/ASimulatoR) is used to create benchmark data to evaluate the performance of the tools mentioned above. 
 
 ### 2.3 Test Tools for simple data 
  
@@ -39,7 +39,8 @@ The project aim to compare the performnace for several kinds of tools used to de
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2Nj
-M4MjY3NTUsLTEzMjA3MDgyOSw4ODM4NjczNzEsLTE1NTkxMTI1
-MDAsLTkyODIyNzA4LC01OTk4MjQwMDQsMjcyMzM1NTE3XX0=
+eyJoaXN0b3J5IjpbNjU1NjQ5Nzc3LC0xMzg5MTM1Njg5LC00OT
+AzNzk5ODMsNjYzODI2NzU1LC0xMzIwNzA4MjksODgzODY3Mzcx
+LC0xNTU5MTEyNTAwLC05MjgyMjcwOCwtNTk5ODI0MDA0LDI3Mj
+MzNTUxN119
 -->
