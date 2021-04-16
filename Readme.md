@@ -1,7 +1,6 @@
-# <center> 1. Project Description 
+## <center> 1. Project Description 
 ![](https://cdn.jsdelivr.net/gh/cauliyang/blog-image@main//img/20210417053027.png =800x100)
 The project aim to compare the performance for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
-
 
 ## 2. Program Plan 
 
@@ -49,10 +48,10 @@ $\textbf{run\_c.sh}$ records the usage and location of these tools.
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MDE4NjU2MTQsLTI5ODQyNzA2OCwtMT
-EwNTc3MDYyMSwxMDU3NTY3MTk5LC0xNTcyNTc1NDM2LDYyNzQ4
-MDc5NiwxOTkwOTQ2NzU3LDMyMDgwNDA3NSwxOTY1ODk2NDEsNj
-U1NjQ5Nzc3LC0xMzg5MTM1Njg5LC00OTAzNzk5ODMsNjYzODI2
-NzU1LC0xMzIwNzA4MjksODgzODY3MzcxLC0xNTU5MTEyNTAwLC
-05MjgyMjcwOCwtNTk5ODI0MDA0LDI3MjMzNTUxN119
+eyJoaXN0b3J5IjpbLTUzMzE4OTQxNSwtMjk4NDI3MDY4LC0xMT
+A1NzcwNjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0MzYsNjI3NDgw
+Nzk2LDE5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4OTY0MSw2NT
+U2NDk3NzcsLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2NjM4MjY3
+NTUsLTEzMjA3MDgyOSw4ODM4NjczNzEsLTE1NTkxMTI1MDAsLT
+kyODIyNzA4LC01OTk4MjQwMDQsMjcyMzM1NTE3XX0=
 -->
