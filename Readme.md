@@ -6,8 +6,8 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 ### 2.1  Installation of Software
 
- - [x] [MISO](http://hollywood.mit.edu/burgelab/miso/) | [==Documentation==](https://miso.readthedocs.io/en/fastmiso/#using-miso-on-a-cluster)
- - [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) | [==Documentation==](https://github.com/Xinglab/rmats-turbo/blob/v4.1.1/README.md)
+ - [x] [MISO](http://hollywood.mit.edu/burgelab/miso/) | [Documentation](https://miso.readthedocs.io/en/fastmiso/#using-miso-on-a-cluster)
+ - [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) | [Documentation](https://github.com/Xinglab/rmats-turbo/blob/v4.1.1/README.md)
  - [ ] [MAJIQ](https://majiq.biociphers.org/)
  - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
  - [ ] [SplAdder](https://github.com/ratschlab/spladder)
@@ -21,6 +21,6 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 ### 2.3 TODO..
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODIyNzA4LC01OTk4MjQwMDQsMjcyMz
-M1NTE3XX0=
+eyJoaXN0b3J5IjpbLTE1NTkxMTI1MDAsLTkyODIyNzA4LC01OT
+k4MjQwMDQsMjcyMzM1NTE3XX0=
 -->
