@@ -18,9 +18,16 @@ The project aim to compare the performnace for several kinds of tools used to de
 
 [ASimulatoR](https://github.com/biomedbigdata/ASimulatoR) is used to create benchmark data to evaluate the performace of the tools mentioned above. 
 
+### 2.3 Test Tools for simple data 
 
-### 2.3 TODO..
+- [x] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+ - [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) | [Documentation](https://github.com/Xinglab/rmats-turbo/blob/v4.1.1/README.md)
+ - [ ] [MAJIQ](https://majiq.biociphers.org/)
+ - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
+ - [ ] [SplAdder](https://github.com/ratschlab/spladder)
+ - [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
+ - [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTkxMTI1MDAsLTkyODIyNzA4LC01OT
-k4MjQwMDQsMjcyMzM1NTE3XX0=
+eyJoaXN0b3J5IjpbMTQxNDEyNjcwNSwtMTU1OTExMjUwMCwtOT
+I4MjI3MDgsLTU5OTgyNDAwNCwyNzIzMzU1MTddfQ==
 -->
