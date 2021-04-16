@@ -2,7 +2,7 @@
 ![](https://cdn.jsdelivr.net/gh/cauliyang/blog-image@main//img/20210417053027.png =800x100)
 The project aim to compare the performance for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
 
-{{ toc }}
+
 
 ## 2. Program Plan 
 
@@ -50,7 +50,7 @@ $\textbf{run\_c.sh}$ records the usage and location of these tools.
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTU1MTc1OCwtMTEwNTc3MDYyMSwxMD
+eyJoaXN0b3J5IjpbLTI5ODQyNzA2OCwtMTEwNTc3MDYyMSwxMD
 U3NTY3MTk5LC0xNTcyNTc1NDM2LDYyNzQ4MDc5NiwxOTkwOTQ2
 NzU3LDMyMDgwNDA3NSwxOTY1ODk2NDEsNjU1NjQ5Nzc3LC0xMz
 g5MTM1Njg5LC00OTAzNzk5ODMsNjYzODI2NzU1LC0xMzIwNzA4
