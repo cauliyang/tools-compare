@@ -32,16 +32,23 @@ The project aim to compare the performance for several kinds of tools used to de
 
 [![Snakemake](https://img.shields.io/badge/snakemake-≥5.7.0-brightgreen.svg?style=flat-square)](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst) is used to construct workflow. 
 
-- [ ] Creat simulated data 
+- [ ] Creat simulated data  
 - [ ] Create Rna-align rule 
 - [ ] Create Run-tools rules
+	- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+	- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
+	- [ ] [MAJIQ](https://majiq.biociphers.org/)
+	- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
+	- [ ] [SplAdder](https://github.com/ratschlab/spladder)
+	- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
+	- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 - [ ] Create evaluation rules 
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDk0Njc1NywzMjA4MDQwNzUsMTk2NT
-g5NjQxLDY1NTY0OTc3NywtMTM4OTEzNTY4OSwtNDkwMzc5OTgz
-LDY2MzgyNjc1NSwtMTMyMDcwODI5LDg4Mzg2NzM3MSwtMTU1OT
-ExMjUwMCwtOTI4MjI3MDgsLTU5OTgyNDAwNCwyNzIzMzU1MTdd
-fQ==
+eyJoaXN0b3J5IjpbNjI3NDgwNzk2LDE5OTA5NDY3NTcsMzIwOD
+A0MDc1LDE5NjU4OTY0MSw2NTU2NDk3NzcsLTEzODkxMzU2ODks
+LTQ5MDM3OTk4Myw2NjM4MjY3NTUsLTEzMjA3MDgyOSw4ODM4Nj
+czNzEsLTE1NTkxMTI1MDAsLTkyODIyNzA4LC01OTk4MjQwMDQs
+MjcyMzM1NTE3XX0=
 -->
