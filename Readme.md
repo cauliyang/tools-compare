@@ -1,5 +1,5 @@
 # 1. Project Description 
-![](https://cdn.jsdelivr.net/gh/cauliyang/blog-image@main//img/20210417053027.png =800x30)
+![](https://cdn.jsdelivr.net/gh/cauliyang/blog-image@main//img/20210417053027.png =800x100)
 The project aim to compare the performance for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
 
 ## 2. Program Plan 
@@ -14,7 +14,7 @@ The project aim to compare the performance for several kinds of tools used to de
  - [x] [Jum](https://github.com/qqwang-berkeley/JUM) | [Documentation](https://github.com/qqwang-berkeley/JUM/wiki/A-Hitchhiker's-guide-to-JUM-(version-2.0.2-))
  - [x] [Whippet](https://github.com/timbitz/Whippet.jl) | [Documentation](https://github.com/timbitz/Whippet.jl)
 
-$\textbf{run\_c.sh}$ record the usage and location of these tools. 
+$\textbf{run\_c.sh}$ records the usage and location of these tools. 
 
 ### 2.2 Create Test Data 
 
@@ -48,7 +48,7 @@ $\textbf{run\_c.sh}$ record the usage and location of these tools.
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDM0NzM5NzAsMTA1NzU2NzE5OSwtMT
+eyJoaXN0b3J5IjpbLTExMDU3NzA2MjEsMTA1NzU2NzE5OSwtMT
 U3MjU3NTQzNiw2Mjc0ODA3OTYsMTk5MDk0Njc1NywzMjA4MDQw
 NzUsMTk2NTg5NjQxLDY1NTY0OTc3NywtMTM4OTEzNTY4OSwtND
 kwMzc5OTgzLDY2MzgyNjc1NSwtMTMyMDcwODI5LDg4Mzg2NzM3
