@@ -3,7 +3,6 @@
 The project aim to compare the performance for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
 
 
-
 ## 2. Program Plan 
 
 ### 2.1  Installation of Software
@@ -50,10 +49,10 @@ $\textbf{run\_c.sh}$ records the usage and location of these tools.
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5ODQyNzA2OCwtMTEwNTc3MDYyMSwxMD
-U3NTY3MTk5LC0xNTcyNTc1NDM2LDYyNzQ4MDc5NiwxOTkwOTQ2
-NzU3LDMyMDgwNDA3NSwxOTY1ODk2NDEsNjU1NjQ5Nzc3LC0xMz
-g5MTM1Njg5LC00OTAzNzk5ODMsNjYzODI2NzU1LC0xMzIwNzA4
-MjksODgzODY3MzcxLC0xNTU5MTEyNTAwLC05MjgyMjcwOCwtNT
-k5ODI0MDA0LDI3MjMzNTUxN119
+eyJoaXN0b3J5IjpbLTE3MDE4NjU2MTQsLTI5ODQyNzA2OCwtMT
+EwNTc3MDYyMSwxMDU3NTY3MTk5LC0xNTcyNTc1NDM2LDYyNzQ4
+MDc5NiwxOTkwOTQ2NzU3LDMyMDgwNDA3NSwxOTY1ODk2NDEsNj
+U1NjQ5Nzc3LC0xMzg5MTM1Njg5LC00OTAzNzk5ODMsNjYzODI2
+NzU1LC0xMzIwNzA4MjksODgzODY3MzcxLC0xNTU5MTEyNTAwLC
+05MjgyMjcwOCwtNTk5ODI0MDA0LDI3MjMzNTUxN119
 -->
