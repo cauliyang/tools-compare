@@ -11,7 +11,7 @@ The project aim to compare the performance for several kinds of tools used to de
  - [x] [MAJIQ](https://majiq.biociphers.org/) | [Documentation](https://biociphers.bitbucket.io/majiq/MAJIQ.html#builder)
  - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/) | [Documentation](https://davidaknowles.github.io/leafcutter/articles/Installation.html)
  - [x] [SplAdder](https://github.com/ratschlab/spladder) | [Documentation](https://spladder.readthedocs.io/en/latest/general.html)
- - [ ] [Jum](https://github.com/qqwang-berkeley/JUM) | [Documentation]
+ - [ ] [Jum](https://github.com/qqwang-berkeley/JUM) | [Documentation](https://github.com/qqwang-berkeley/JUM/wiki/A-Hitchhiker's-guide-to-JUM-(version-2.0.2-))
  - [ ] [Whippet](https://github.com/timbitz/Whippet.jl) | [Documentation]
 
 ### 2.2 Create Test Data 
@@ -39,8 +39,9 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIwODA0MDc1LDE5NjU4OTY0MSw2NTU2ND
-k3NzcsLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2NjM4MjY3NTUs
-LTEzMjA3MDgyOSw4ODM4NjczNzEsLTE1NTkxMTI1MDAsLTkyOD
-IyNzA4LC01OTk4MjQwMDQsMjcyMzM1NTE3XX0=
+eyJoaXN0b3J5IjpbMTk5MDk0Njc1NywzMjA4MDQwNzUsMTk2NT
+g5NjQxLDY1NTY0OTc3NywtMTM4OTEzNTY4OSwtNDkwMzc5OTgz
+LDY2MzgyNjc1NSwtMTMyMDcwODI5LDg4Mzg2NzM3MSwtMTU1OT
+ExMjUwMCwtOTI4MjI3MDgsLTU5OTgyNDAwNCwyNzIzMzU1MTdd
+fQ==
 -->
