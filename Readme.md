@@ -9,7 +9,7 @@ The project aim to compare the performance for several kinds of tools used to de
  - [x] [MISO](http://hollywood.mit.edu/burgelab/miso/) | [Documentation](https://miso.readthedocs.io/en/fastmiso/#using-miso-on-a-cluster)
  - [x]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) | [Documentation](https://github.com/Xinglab/rmats-turbo/blob/v4.1.1/README.md)
  - [x] [MAJIQ](https://majiq.biociphers.org/) | [Documentation](https://biociphers.bitbucket.io/majiq/MAJIQ.html#builder)
- - [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/) | [Documentation](https://davidaknowles.github.io/leafcutter/articles/Installation.html)
+ - [x] [LeafCutter](https://davidaknowles.github.io/leafcutter/) | [Documentation](https://davidaknowles.github.io/leafcutter/articles/Installation.html)
  - [x] [SplAdder](https://github.com/ratschlab/spladder) | [Documentation](https://spladder.readthedocs.io/en/latest/general.html)
  - [x] [Jum](https://github.com/qqwang-berkeley/JUM) | [Documentation](https://github.com/qqwang-berkeley/JUM/wiki/A-Hitchhiker's-guide-to-JUM-(version-2.0.2-))
  - [x] [Whippet](https://github.com/timbitz/Whippet.jl) | [Documentation](https://github.com/timbitz/Whippet.jl)
@@ -48,10 +48,11 @@ $\textbf{run\_c.sh}$ records the usage and location of these tools.
 - [ ] Create report rules 
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzMzE4OTQxNSwtMjk4NDI3MDY4LC0xMT
-A1NzcwNjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0MzYsNjI3NDgw
-Nzk2LDE5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4OTY0MSw2NT
-U2NDk3NzcsLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2NjM4MjY3
-NTUsLTEzMjA3MDgyOSw4ODM4NjczNzEsLTE1NTkxMTI1MDAsLT
-kyODIyNzA4LC01OTk4MjQwMDQsMjcyMzM1NTE3XX0=
+eyJoaXN0b3J5IjpbMTM5OTE4MDA4MSwtNTMzMTg5NDE1LC0yOT
+g0MjcwNjgsLTExMDU3NzA2MjEsMTA1NzU2NzE5OSwtMTU3MjU3
+NTQzNiw2Mjc0ODA3OTYsMTk5MDk0Njc1NywzMjA4MDQwNzUsMT
+k2NTg5NjQxLDY1NTY0OTc3NywtMTM4OTEzNTY4OSwtNDkwMzc5
+OTgzLDY2MzgyNjc1NSwtMTMyMDcwODI5LDg4Mzg2NzM3MSwtMT
+U1OTExMjUwMCwtOTI4MjI3MDgsLTU5OTgyNDAwNCwyNzIzMzU1
+MTddfQ==
 -->
