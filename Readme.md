@@ -3,6 +3,7 @@
 
 ![](https://img.shields.io/static/v1?label=Python&message=3.6&color=<COLOR>&style=for-the-badge&logo=Python) [![](https://img.shields.io/static/v1?label=Snakemake&message=≥5.7.0&color=<COLOR>&style=for-the-badge&logo=snakemake)](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst). 
 
+
 The project aim to compare the performance for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
 
 
@@ -53,7 +54,7 @@ The project aim to compare the performance for several kinds of tools used to de
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1MjE0NzA3MSwxNDI2NjcwOTE1LDEwOT
+eyJoaXN0b3J5IjpbLTg1MDM3NDgwMywxNDI2NjcwOTE1LDEwOT
 g0ODg5NjEsMTM5OTE4MDA4MSwtNTMzMTg5NDE1LC0yOTg0Mjcw
 NjgsLTExMDU3NzA2MjEsMTA1NzU2NzE5OSwtMTU3MjU3NTQzNi
 w2Mjc0ODA3OTYsMTk5MDk0Njc1NywzMjA4MDQwNzUsMTk2NTg5
