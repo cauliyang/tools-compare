@@ -1,7 +1,7 @@
 ## <center> 1. Project Description 
 ![](https://cdn.jsdelivr.net/gh/cauliyang/blog-image@main//img/20210417053027.png)   
 
-![s](https://img.shields.io/static/v1?label=Python&message=3.6&color=<COLOR>&style=for-the-badge&logo=Python) 
+![](https://img.shields.io/static/v1?label=Python&message=3.6&color=<COLOR>&style=for-the-badge&logo=Python) ![](https://img.shields.io/static/v1?label=Snakemake&message=≥5.7.0&color=<COLOR>&style=for-the-badge&logo=snakemake)
 The project aim to compare the performance for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
 
 
@@ -52,11 +52,11 @@ $\textbf{run\_c.sh}$ records the usage and location of these tools.
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDUxNjE5NzYsMTA5ODQ4ODk2MSwxMz
-k5MTgwMDgxLC01MzMxODk0MTUsLTI5ODQyNzA2OCwtMTEwNTc3
-MDYyMSwxMDU3NTY3MTk5LC0xNTcyNTc1NDM2LDYyNzQ4MDc5Ni
-wxOTkwOTQ2NzU3LDMyMDgwNDA3NSwxOTY1ODk2NDEsNjU1NjQ5
-Nzc3LC0xMzg5MTM1Njg5LC00OTAzNzk5ODMsNjYzODI2NzU1LC
-0xMzIwNzA4MjksODgzODY3MzcxLC0xNTU5MTEyNTAwLC05Mjgy
-MjcwOF19
+eyJoaXN0b3J5IjpbLTcxNTcyNTQzMywxMDk4NDg4OTYxLDEzOT
+kxODAwODEsLTUzMzE4OTQxNSwtMjk4NDI3MDY4LC0xMTA1Nzcw
+NjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0MzYsNjI3NDgwNzk2LD
+E5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4OTY0MSw2NTU2NDk3
+NzcsLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2NjM4MjY3NTUsLT
+EzMjA3MDgyOSw4ODM4NjczNzEsLTE1NTkxMTI1MDAsLTkyODIy
+NzA4XX0=
 -->
