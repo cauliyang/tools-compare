@@ -1,7 +1,8 @@
 ## <center> 1. Project Description 
 ![](https://cdn.jsdelivr.net/gh/cauliyang/blog-image@main//img/20210417053027.png)   
 
-![](https://img.shields.io/static/v1?label=Python&message=3.6&color=<COLOR>&style=for-the-badge&logo=Python) [![](https://img.shields.io/static/v1?label=Snakemake&message=≥5.7.0&color=<COLOR>&style=for-the-badge&logo=snakemake)](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst)
+![](https://img.shields.io/static/v1?label=Python&message=3.6&color=<COLOR>&style=for-the-badge&logo=Python) [![](https://img.shields.io/static/v1?label=Snakemake&message=≥5.7.0&color=<COLOR>&style=for-the-badge&logo=snakemake)](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst). 
+
 The project aim to compare the performance for several kinds of tools used to dectect alternative splicing. The  tools are shown below: 
 
 
@@ -52,11 +53,11 @@ The project aim to compare the performance for several kinds of tools used to de
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjY3MDkxNSwxMDk4NDg4OTYxLDEzOT
-kxODAwODEsLTUzMzE4OTQxNSwtMjk4NDI3MDY4LC0xMTA1Nzcw
-NjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0MzYsNjI3NDgwNzk2LD
-E5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4OTY0MSw2NTU2NDk3
-NzcsLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2NjM4MjY3NTUsLT
-EzMjA3MDgyOSw4ODM4NjczNzEsLTE1NTkxMTI1MDAsLTkyODIy
-NzA4XX0=
+eyJoaXN0b3J5IjpbMTg1MjE0NzA3MSwxNDI2NjcwOTE1LDEwOT
+g0ODg5NjEsMTM5OTE4MDA4MSwtNTMzMTg5NDE1LC0yOTg0Mjcw
+NjgsLTExMDU3NzA2MjEsMTA1NzU2NzE5OSwtMTU3MjU3NTQzNi
+w2Mjc0ODA3OTYsMTk5MDk0Njc1NywzMjA4MDQwNzUsMTk2NTg5
+NjQxLDY1NTY0OTc3NywtMTM4OTEzNTY4OSwtNDkwMzc5OTgzLD
+Y2MzgyNjc1NSwtMTMyMDcwODI5LDg4Mzg2NzM3MSwtMTU1OTEx
+MjUwMF19
 -->
