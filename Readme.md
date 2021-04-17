@@ -17,7 +17,7 @@ The project aim to compare the performance for several kinds of tools used to de
  - [x] [Jum](https://github.com/qqwang-berkeley/JUM) | [Documentation](https://github.com/qqwang-berkeley/JUM/wiki/A-Hitchhiker's-guide-to-JUM-(version-2.0.2-))
  - [x] [Whippet](https://github.com/timbitz/Whippet.jl) | [Documentation](https://github.com/timbitz/Whippet.jl)
 
-$\textbf{run\_c.sh}$ records the usage and location of these tools. 
+**run\_c.sh** records the usage and location of these tools. 
 
 ### 2.2 Create Test Data 
 
@@ -52,11 +52,11 @@ $\textbf{run\_c.sh}$ records the usage and location of these tools.
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDA0NjI4MjYsMTA5ODQ4ODk2MSwxMz
-k5MTgwMDgxLC01MzMxODk0MTUsLTI5ODQyNzA2OCwtMTEwNTc3
-MDYyMSwxMDU3NTY3MTk5LC0xNTcyNTc1NDM2LDYyNzQ4MDc5Ni
-wxOTkwOTQ2NzU3LDMyMDgwNDA3NSwxOTY1ODk2NDEsNjU1NjQ5
-Nzc3LC0xMzg5MTM1Njg5LC00OTAzNzk5ODMsNjYzODI2NzU1LC
-0xMzIwNzA4MjksODgzODY3MzcxLC0xNTU5MTEyNTAwLC05Mjgy
-MjcwOF19
+eyJoaXN0b3J5IjpbMTQyNjY3MDkxNSwxMDk4NDg4OTYxLDEzOT
+kxODAwODEsLTUzMzE4OTQxNSwtMjk4NDI3MDY4LC0xMTA1Nzcw
+NjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0MzYsNjI3NDgwNzk2LD
+E5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4OTY0MSw2NTU2NDk3
+NzcsLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2NjM4MjY3NTUsLT
+EzMjA3MDgyOSw4ODM4NjczNzEsLTE1NTkxMTI1MDAsLTkyODIy
+NzA4XX0=
 -->
