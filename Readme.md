@@ -30,15 +30,6 @@ The project aim to compare the performance for several kinds of tools used to de
 - [x] Creat Simple Test data 
 - [x] Construct clean directory
 
-### 2.3 Test Tools for simple data 
- 
-- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
-- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
-- [ ] [MAJIQ](https://majiq.biociphers.org/)
-- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
-- [ ] [SplAdder](https://github.com/ratschlab/spladder)
-- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
-- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
 ### 2.4 Construct Snakemake Workflow 
 
@@ -58,12 +49,23 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] Create report rules 
  
  
+ 
+### 2.3 Test Tools for simple data 
+ 
+- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
+- [ ] [MAJIQ](https://majiq.biociphers.org/)
+- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
+- [ ] [SplAdder](https://github.com/ratschlab/spladder)
+- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
+- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDIyMTM2MTYsLTk5MTMwODY0LDg4OT
-A0Mjg3MiwtMTgzNTg4NjYzOSwxNjQwMTkyMzc3LC05OTcxNzA4
-NzcsLTg1MDM3NDgwMywxNDI2NjcwOTE1LDEwOTg0ODg5NjEsMT
-M5OTE4MDA4MSwtNTMzMTg5NDE1LC0yOTg0MjcwNjgsLTExMDU3
-NzA2MjEsMTA1NzU2NzE5OSwtMTU3MjU3NTQzNiw2Mjc0ODA3OT
-YsMTk5MDk0Njc1NywzMjA4MDQwNzUsMTk2NTg5NjQxLDY1NTY0
-OTc3N119
+eyJoaXN0b3J5IjpbMjA1MDk4NTk2LC0xMjQyMjEzNjE2LC05OT
+EzMDg2NCw4ODkwNDI4NzIsLTE4MzU4ODY2MzksMTY0MDE5MjM3
+NywtOTk3MTcwODc3LC04NTAzNzQ4MDMsMTQyNjY3MDkxNSwxMD
+k4NDg4OTYxLDEzOTkxODAwODEsLTUzMzE4OTQxNSwtMjk4NDI3
+MDY4LC0xMTA1NzcwNjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0Mz
+YsNjI3NDgwNzk2LDE5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4
+OTY0MV19
 -->
