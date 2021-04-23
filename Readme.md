@@ -25,7 +25,7 @@ The project aim to compare the performance for several kinds of tools used to de
 
 [ASimulatoR](https://github.com/biomedbigdata/ASimulatoR) is used to create benchmark data to evaluate the performance of the tools mentioned above.  
 
-- [ ] Test useing annotation of all chromsomes
+- [x] Test useing annotation of all chromsomes
 - [x] Download genome file for every chromsome
 - [ ] Creat Simple Test data 
 
@@ -41,7 +41,7 @@ The project aim to compare the performance for several kinds of tools used to de
 
 ### 2.4 Construct Snakemake Workflow 
 
-[![Snakemake](https://img.shields.io/badge/snakemake-≥5.7.0-brightgreen.svg?style=flat-square)](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst) is used to construct workflow. 
+[Snakemake](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst) is used to construct workflow. 
 
 - [ ] Creat simulated data  
 - [ ] Create Rna-align rule 
@@ -58,11 +58,11 @@ The project aim to compare the performance for several kinds of tools used to de
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU4ODY2MzksMTY0MDE5MjM3NywtOT
-k3MTcwODc3LC04NTAzNzQ4MDMsMTQyNjY3MDkxNSwxMDk4NDg4
-OTYxLDEzOTkxODAwODEsLTUzMzE4OTQxNSwtMjk4NDI3MDY4LC
-0xMTA1NzcwNjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0MzYsNjI3
-NDgwNzk2LDE5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4OTY0MS
-w2NTU2NDk3NzcsLTEzODkxMzU2ODksLTQ5MDM3OTk4Myw2NjM4
-MjY3NTVdfQ==
+eyJoaXN0b3J5IjpbODg5MDQyODcyLC0xODM1ODg2NjM5LDE2ND
+AxOTIzNzcsLTk5NzE3MDg3NywtODUwMzc0ODAzLDE0MjY2NzA5
+MTUsMTA5ODQ4ODk2MSwxMzk5MTgwMDgxLC01MzMxODk0MTUsLT
+I5ODQyNzA2OCwtMTEwNTc3MDYyMSwxMDU3NTY3MTk5LC0xNTcy
+NTc1NDM2LDYyNzQ4MDc5NiwxOTkwOTQ2NzU3LDMyMDgwNDA3NS
+wxOTY1ODk2NDEsNjU1NjQ5Nzc3LC0xMzg5MTM1Njg5LC00OTAz
+Nzk5ODNdfQ==
 -->
