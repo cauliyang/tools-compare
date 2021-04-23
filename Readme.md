@@ -26,6 +26,7 @@ The project aim to compare the performance for several kinds of tools used to de
 [ASimulatoR](https://github.com/biomedbigdata/ASimulatoR) is used to create benchmark data to evaluate the performance of the tools mentioned above.  
 
 - [ ] Test useing annotation of all chromsomes. 
+- [ ] Creat Test data 
 - [ ] 
 
 ### 2.3 Test Tools for simple data 
@@ -57,11 +58,11 @@ The project aim to compare the performance for several kinds of tools used to de
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NzE3MDg3NywtODUwMzc0ODAzLDE0Mj
-Y2NzA5MTUsMTA5ODQ4ODk2MSwxMzk5MTgwMDgxLC01MzMxODk0
-MTUsLTI5ODQyNzA2OCwtMTEwNTc3MDYyMSwxMDU3NTY3MTk5LC
-0xNTcyNTc1NDM2LDYyNzQ4MDc5NiwxOTkwOTQ2NzU3LDMyMDgw
-NDA3NSwxOTY1ODk2NDEsNjU1NjQ5Nzc3LC0xMzg5MTM1Njg5LC
-00OTAzNzk5ODMsNjYzODI2NzU1LC0xMzIwNzA4MjksODgzODY3
-MzcxXX0=
+eyJoaXN0b3J5IjpbMzExODAxNDYzLC05OTcxNzA4NzcsLTg1MD
+M3NDgwMywxNDI2NjcwOTE1LDEwOTg0ODg5NjEsMTM5OTE4MDA4
+MSwtNTMzMTg5NDE1LC0yOTg0MjcwNjgsLTExMDU3NzA2MjEsMT
+A1NzU2NzE5OSwtMTU3MjU3NTQzNiw2Mjc0ODA3OTYsMTk5MDk0
+Njc1NywzMjA4MDQwNzUsMTk2NTg5NjQxLDY1NTY0OTc3NywtMT
+M4OTEzNTY4OSwtNDkwMzc5OTgzLDY2MzgyNjc1NSwtMTMyMDcw
+ODI5XX0=
 -->
