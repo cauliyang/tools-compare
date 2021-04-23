@@ -27,7 +27,7 @@ The project aim to compare the performance for several kinds of tools used to de
 
 - [x] Test useing annotation of all chromsomes
 - [x] Download genome file for every chromsome
-- [ ] Creat Simple Test data 
+- [x] Creat Simple Test data 
 
 ### 2.3 Test Tools for simple data 
  
@@ -58,11 +58,11 @@ The project aim to compare the performance for several kinds of tools used to de
  
  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg5MDQyODcyLC0xODM1ODg2NjM5LDE2ND
-AxOTIzNzcsLTk5NzE3MDg3NywtODUwMzc0ODAzLDE0MjY2NzA5
-MTUsMTA5ODQ4ODk2MSwxMzk5MTgwMDgxLC01MzMxODk0MTUsLT
-I5ODQyNzA2OCwtMTEwNTc3MDYyMSwxMDU3NTY3MTk5LC0xNTcy
-NTc1NDM2LDYyNzQ4MDc5NiwxOTkwOTQ2NzU3LDMyMDgwNDA3NS
-wxOTY1ODk2NDEsNjU1NjQ5Nzc3LC0xMzg5MTM1Njg5LC00OTAz
-Nzk5ODNdfQ==
+eyJoaXN0b3J5IjpbLTk5MTMwODY0LDg4OTA0Mjg3MiwtMTgzNT
+g4NjYzOSwxNjQwMTkyMzc3LC05OTcxNzA4NzcsLTg1MDM3NDgw
+MywxNDI2NjcwOTE1LDEwOTg0ODg5NjEsMTM5OTE4MDA4MSwtNT
+MzMTg5NDE1LC0yOTg0MjcwNjgsLTExMDU3NzA2MjEsMTA1NzU2
+NzE5OSwtMTU3MjU3NTQzNiw2Mjc0ODA3OTYsMTk5MDk0Njc1Ny
+wzMjA4MDQwNzUsMTk2NTg5NjQxLDY1NTY0OTc3NywtMTM4OTEz
+NTY4OV19
 -->
