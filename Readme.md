@@ -31,7 +31,7 @@ The project aim to compare the performance for several kinds of tools used to de
 - [x] Construct clean directory
 
 
-### 2.4 Construct Snakemake Workflow 
+### 2.3 Construct Snakemake Workflow 
 
 [Snakemake](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst) is used to construct workflow. 
 
@@ -49,8 +49,7 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] Create report rules 
  
  
- 
-### 2.3 Test Tools for simple data 
+### 2.4 Test Tools for simple data 
  
 - [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
 - [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
@@ -61,11 +60,11 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MDk4NTk2LC0xMjQyMjEzNjE2LC05OT
-EzMDg2NCw4ODkwNDI4NzIsLTE4MzU4ODY2MzksMTY0MDE5MjM3
-NywtOTk3MTcwODc3LC04NTAzNzQ4MDMsMTQyNjY3MDkxNSwxMD
-k4NDg4OTYxLDEzOTkxODAwODEsLTUzMzE4OTQxNSwtMjk4NDI3
-MDY4LC0xMTA1NzcwNjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0Mz
-YsNjI3NDgwNzk2LDE5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4
-OTY0MV19
+eyJoaXN0b3J5IjpbLTU3OTI4MDMzNCwtMTI0MjIxMzYxNiwtOT
+kxMzA4NjQsODg5MDQyODcyLC0xODM1ODg2NjM5LDE2NDAxOTIz
+NzcsLTk5NzE3MDg3NywtODUwMzc0ODAzLDE0MjY2NzA5MTUsMT
+A5ODQ4ODk2MSwxMzk5MTgwMDgxLC01MzMxODk0MTUsLTI5ODQy
+NzA2OCwtMTEwNTc3MDYyMSwxMDU3NTY3MTk5LC0xNTcyNTc1ND
+M2LDYyNzQ4MDc5NiwxOTkwOTQ2NzU3LDMyMDgwNDA3NSwxOTY1
+ODk2NDFdfQ==
 -->
