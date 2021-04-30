@@ -35,7 +35,7 @@ The project aim to compare the performance for several kinds of tools used to de
 
 [Snakemake](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst) is used to construct workflow. 
 
-- [ ] Creat and Test simulated data  
+- [x] Creat and Test simulated data  
 - [ ] Create and Test Rna-align rule 
 - [ ] Create and Test Run-tools rules
 	- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
@@ -60,11 +60,11 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI2NTkyMzc4LC0xMjQyMjEzNjE2LC05OT
-EzMDg2NCw4ODkwNDI4NzIsLTE4MzU4ODY2MzksMTY0MDE5MjM3
-NywtOTk3MTcwODc3LC04NTAzNzQ4MDMsMTQyNjY3MDkxNSwxMD
-k4NDg4OTYxLDEzOTkxODAwODEsLTUzMzE4OTQxNSwtMjk4NDI3
-MDY4LC0xMTA1NzcwNjIxLDEwNTc1NjcxOTksLTE1NzI1NzU0Mz
-YsNjI3NDgwNzk2LDE5OTA5NDY3NTcsMzIwODA0MDc1LDE5NjU4
-OTY0MV19
+eyJoaXN0b3J5IjpbLTE3OTk2NzA4MzAsOTI2NTkyMzc4LC0xMj
+QyMjEzNjE2LC05OTEzMDg2NCw4ODkwNDI4NzIsLTE4MzU4ODY2
+MzksMTY0MDE5MjM3NywtOTk3MTcwODc3LC04NTAzNzQ4MDMsMT
+QyNjY3MDkxNSwxMDk4NDg4OTYxLDEzOTkxODAwODEsLTUzMzE4
+OTQxNSwtMjk4NDI3MDY4LC0xMTA1NzcwNjIxLDEwNTc1NjcxOT
+ksLTE1NzI1NzU0MzYsNjI3NDgwNzk2LDE5OTA5NDY3NTcsMzIw
+ODA0MDc1XX0=
 -->
