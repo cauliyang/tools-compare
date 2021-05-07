@@ -22,8 +22,13 @@ singularity: "docker://continuumio/miniconda3"
 configfile: "config/config.yaml"
 validate(config, schema="../schemas/config.schema.yaml")
 
-samples = pd.read_csv(config["samples"], sep="\t").set_index("sample", drop=False)
+WORKING_DIR = config['wkdir']
+RESULT_DIR  = config['resultdir']
+
+samples = pd.read_csv(config["samples"], sep="\t").set_index("samples", drop=False)
+
 samples.index.names = ["sample_id"]
+
 validate(samples, schema="../schemas/samples.schema.yaml")
 
 
@@ -32,8 +37,6 @@ def get_fastq(wildcards):
     and returns 1 or 2 names of the fastq files """
 
     return samples.loc[(wildcards.sample), ["fq1", "fq2"]].dropna()
-
-
 
 rule fastp:
     input:
@@ -49,19 +52,14 @@ rule fastp:
     params:
         sampleName = "{sample}",
         qualified_quality_phred = config["fastp"]["qualified_quality_phred"]
-    run:
-        if sample_is_single_end(params.sampleName):
-            shell("fastp --thread {threads}  --html {output.html} \
-            --qualified_quality_phred {params.qualified_quality_phred} \
-            --in1 {input} --out1 {output} \
-            2> {log}; \
-            touch {output.fq2}")
-        else:
-            shell("fastp --thread {threads}  --html {output.html} \
+
+    shell:
+        "fastp --thread {threads}  --html {output.html} \
             --qualified_quality_phred {params.qualified_quality_phred} \
             --detect_adapter_for_pe \
             --in1 {input[0]} --in2 {input[1]} --out1 {output.fq1} --out2 {output.fq2}; \
-            2> {log}")
+            2> {log}"
+
 
 #########################
 # RNA-Seq read alignement
