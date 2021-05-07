@@ -25,28 +25,20 @@ The project aim to compare the performance for several kinds of tools used to de
 
 [ASimulatoR](https://github.com/biomedbigdata/ASimulatoR) is used to create benchmark data to evaluate the performance of the tools mentioned above.  
 
-- [x] Test useing annotation of all chromsomes
+- [x] Test using annotation of all chromsomes
 - [x] Download genome file for every chromsome
 - [x] Creat Simple Test data 
+- [x] Construct clean directory
 
-### 2.3 Test Tools for simple data 
- 
-- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
-- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
-- [ ] [MAJIQ](https://majiq.biociphers.org/)
-- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
-- [ ] [SplAdder](https://github.com/ratschlab/spladder)
-- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
-- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
-### 2.4 Construct Snakemake Workflow 
+### 2.3 Construct Snakemake Workflow 
 
 [Snakemake](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst) is used to construct workflow. 
 
-- [ ] Creat simulated data  
-- [ ] Create Rna-align rule 
-- [ ] Create Run-tools rules
-	- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+- [x] Creat and Test simulated data  
+- [x] Create and Test Rna-align rule 
+- [x] Create and Test Run-tools rules
+	- [x] [MISO](http://hollywood.mit.edu/burgelab/miso/)
 	- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
 	- [ ] [MAJIQ](https://majiq.biociphers.org/)
 	- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
@@ -56,13 +48,23 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] Create evaluation rules 
 - [ ] Create report rules 
  
+
+### 2.4 Test Tools for data 
  
+- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
+- [ ] [MAJIQ](https://majiq.biociphers.org/)
+- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
+- [ ] [SplAdder](https://github.com/ratschlab/spladder)
+- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
+- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTMwODY0LDg4OTA0Mjg3MiwtMTgzNT
-g4NjYzOSwxNjQwMTkyMzc3LC05OTcxNzA4NzcsLTg1MDM3NDgw
-MywxNDI2NjcwOTE1LDEwOTg0ODg5NjEsMTM5OTE4MDA4MSwtNT
-MzMTg5NDE1LC0yOTg0MjcwNjgsLTExMDU3NzA2MjEsMTA1NzU2
-NzE5OSwtMTU3MjU3NTQzNiw2Mjc0ODA3OTYsMTk5MDk0Njc1Ny
-wzMjA4MDQwNzUsMTk2NTg5NjQxLDY1NTY0OTc3NywtMTM4OTEz
-NTY4OV19
+eyJoaXN0b3J5IjpbLTc1Nzc1MjQ1NCwtMTc3MzQwMjA2LDEyNz
+c5MDI5NzAsLTE3OTk2NzA4MzAsOTI2NTkyMzc4LC0xMjQyMjEz
+NjE2LC05OTEzMDg2NCw4ODkwNDI4NzIsLTE4MzU4ODY2MzksMT
+Y0MDE5MjM3NywtOTk3MTcwODc3LC04NTAzNzQ4MDMsMTQyNjY3
+MDkxNSwxMDk4NDg4OTYxLDEzOTkxODAwODEsLTUzMzE4OTQxNS
+wtMjk4NDI3MDY4LC0xMTA1NzcwNjIxLDEwNTc1NjcxOTksLTE1
+NzI1NzU0MzZdfQ==
 -->
