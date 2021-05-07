@@ -4,14 +4,18 @@ description: an entry in the sample sheet
 
 # columns that the config/samples.tsv file can have and which type they should be
 properties:
-  sample:
+  samples:
     type: string
     description: sample name/identifier
-  condition:
+  fq1:
     type: string
-    description: sample condition that will be compared during differential analysis (e.g. a treatment, a tissue time, a disease)
+    description: path of read 1
+  fq2:
+    type: string
+    description: path of read  2
 
 # columns that the config/samples.tsv file must have to pass schema validation
 required:
-  - sample
-  - condition
+  - samples
+  - fq1
+  - fq2
