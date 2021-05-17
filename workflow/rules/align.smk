@@ -24,7 +24,7 @@ rule fastp:
         html=RESULT_DIR + "fastp/{sample}.html",
     message:
         "trimming {wildcards.sample} reads"
-    threads: 4
+    threads: 10
     log:
         RESULT_DIR + "fastp/{sample}.log.txt",
     params:
@@ -37,29 +37,27 @@ rule fastp:
                                     --in1 {input[0]} --in2 {input[1]} --out1 {output.fq1} --out2 {output.fq2}; \
                                     2> {log}"
 
-
-rule index:
-    input:
-        WORKING_DIR + "genome/genome.fasta",
-    output:
-        [WORKING_DIR + "genome/genome." + str(i) + ".ht2" for i in range(1, 9)],
-    message:
-        "indexing genome"
-    params:
-        WORKING_DIR + "genome/genome",
-    threads: 4
-    shell:
-        "hisat2-build -p {threads} {input} {params} --quiet"
+#
+# rule index:
+#     input:
+#         WORKING_DIR + "genome/genome.fasta",
+#     output:
+#         [WORKING_DIR + "genome/genome." + str(i) + ".ht2" for i in range(1, 9)],
+#     message:
+#         "indexing genome"
+#     params:
+#         WORKING_DIR + "genome/genome",
+#     threads: 10
+#     shell:
+#         "hisat2-build -p {threads} {input} {params} --quiet"
 
 
 rule hisat_mapping:
     input:
-        get_trimmed,
-        indexFiles=[
-            WORKING_DIR + "genome/genome." + str(i) + ".ht2" for i in range(1, 9)
-        ],
+        WORKING_DIR + "trimmed/" + "{sample}_R1_trimmed.fq.gz",
+        WORKING_DIR + "trimmed/" + "{sample}_R2_trimmed.fq.gz",
     output:
-        bams=WORKING_DIR + "mapped/{sample}.bam",
+        sam=WORKING_DIR + "mapped/{sample}.bam",
         sum=RESULT_DIR + "logs/{sample}_sum.txt",
         met=RESULT_DIR + "logs/{sample}_met.txt",
     params:
@@ -70,4 +68,25 @@ rule hisat_mapping:
     threads: 10
     shell:
         "hisat2 -p {threads} --summary-file {output.sum} --met-file {output.met} -x {params.indexName} \
-                                    -1 {input[0]} -2 {input[1]} | samtools view -Sb -F 4 -o {output.bams}"
+                                    -1 {input[0]} -2 {input[1]} -S {output.sam}"
+
+rule sam2bam:
+    input:
+        WORKING_DIR + "mapped/{sample}.sam"
+    output:
+        WORKING_DIR + "mapped/{sample}.bam"
+    shell:
+        "samtools view -S {input} -b -F 4  -o {output}"
+
+rule sort:
+    input:
+        WORKING_DIR + "mapped/{sample}.bam"
+    output:
+        WORKING_DIR + "mapped/{sample}.sort.bam"
+    shell:
+        "samtools sort {input} -o {output}"
+
+rule index:
+
+
+
