@@ -52,7 +52,7 @@ rule fastp:
 #         "hisat2-build -p {threads} {input} {params} --quiet"
 
 
-rule hisat_mapping:
+rule mapping:
     input:
         WORKING_DIR + "trimmed/" + "{sample}_R1_trimmed.fq.gz",
         WORKING_DIR + "trimmed/" + "{sample}_R2_trimmed.fq.gz",
@@ -75,6 +75,8 @@ rule sam2bam:
         WORKING_DIR + "mapped/{sample}.sam"
     output:
         WORKING_DIR + "mapped/{sample}.bam"
+    message:
+        "sam 2 bam"
     shell:
         "samtools view -S {input} -b -F 4  -o {output}"
 
@@ -83,10 +85,18 @@ rule sort:
         WORKING_DIR + "mapped/{sample}.bam"
     output:
         WORKING_DIR + "mapped/{sample}.sort.bam"
+    message:
+        "sort bam"
     shell:
         "samtools sort {input} -o {output}"
 
 rule index:
-
-
+    input:
+        WORKING_DIR + "mapped/{sample}.sort.bam"
+    output:
+        WORKING_DIR + "mapped/{sample}.sort.bam.bai"
+    message:
+        "index bam"
+    shell:
+        "samtools index {input} {output}"
 
