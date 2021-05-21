@@ -36,4 +36,4 @@ def get_trimmed(wildcards):
 
 
 def get_align_result():
-    return expand(WORKING_DIR + "mapped/{sample}.bam", sample=samples.index.tolist())
+    return expand(WORKING_DIR + "mapped/{sample}.sort.bam.bai", sample=samples.index.tolist())

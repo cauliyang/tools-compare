@@ -61,7 +61,7 @@ rule mapping:
         sum=RESULT_DIR + "logs/{sample}_sum.txt",
         met=RESULT_DIR + "logs/{sample}_met.txt",
     params:
-        indexName=WORKING_DIR + "genome/genome",
+        indexName=WORKING_DIR + "genome/genome_snp_tran",
         sampleName="{sample}",
     message:
         "mapping reads to genome to bam files."
@@ -75,12 +75,14 @@ rule sam2bam:
         WORKING_DIR + "mapped/{sample}.sam"
     output:
         WORKING_DIR + "mapped/{sample}.bam"
+    params:
+        indexname=WORKING_DIR + "genome/genome_snp_tran.fai"
     message:
-        "sam 2 bam"
+        "sam 2 bam with header"
     shell:
-        "samtools view -S {input} -b -F 4  -o {output}"
+        "samtools view -Sh {input} -t {params.indexname} -b -F 4  -o {output}"
 
-rule sort:
+rule sortbam:
     input:
         WORKING_DIR + "mapped/{sample}.bam"
     output:
@@ -90,7 +92,7 @@ rule sort:
     shell:
         "samtools sort {input} -o {output}"
 
-rule index:
+rule indexbam:
     input:
         WORKING_DIR + "mapped/{sample}.sort.bam"
     output:
