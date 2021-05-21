@@ -57,7 +57,7 @@ rule mapping:
         WORKING_DIR + "trimmed/" + "{sample}_R1_trimmed.fq.gz",
         WORKING_DIR + "trimmed/" + "{sample}_R2_trimmed.fq.gz",
     output:
-        sam=WORKING_DIR + "mapped/{sample}.bam",
+        sam=WORKING_DIR + "mapped/{sample}.sam",
         sum=RESULT_DIR + "logs/{sample}_sum.txt",
         met=RESULT_DIR + "logs/{sample}_met.txt",
     params:
