@@ -64,7 +64,7 @@ rule mapping:
         indexName=WORKING_DIR + "genome/genome_snp_tran",
         sampleName="{sample}",
     message:
-        "mapping reads to genome to bam files."
+        "mapping reads to genome "
     threads: 10
     shell:
         "hisat2 -p {threads} --summary-file {output.sum} --met-file {output.met} -x {params.indexName} \
