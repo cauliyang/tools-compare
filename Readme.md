@@ -40,7 +40,7 @@ The project aim to compare the performance for several kinds of tools used to de
 - [x] Create and Test Run-tools rules
 	- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/) (Skiped)
 	- [x]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
-	- [ ] [MAJIQ](https://majiq.biociphers.org/)
+	- [x] [MAJIQ](https://majiq.biociphers.org/)
 	- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
 	- [ ] [SplAdder](https://github.com/ratschlab/spladder)
 	- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
@@ -60,11 +60,11 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NTk1NTc5NywtNTM5MDU2NDI5LC03NT
-c3NTI0NTQsLTE3NzM0MDIwNiwxMjc3OTAyOTcwLC0xNzk5Njcw
-ODMwLDkyNjU5MjM3OCwtMTI0MjIxMzYxNiwtOTkxMzA4NjQsOD
-g5MDQyODcyLC0xODM1ODg2NjM5LDE2NDAxOTIzNzcsLTk5NzE3
-MDg3NywtODUwMzc0ODAzLDE0MjY2NzA5MTUsMTA5ODQ4ODk2MS
-wxMzk5MTgwMDgxLC01MzMxODk0MTUsLTI5ODQyNzA2OCwtMTEw
-NTc3MDYyMV19
+eyJoaXN0b3J5IjpbNjQzMzg1NzMxLC04NDU5NTU3OTcsLTUzOT
+A1NjQyOSwtNzU3NzUyNDU0LC0xNzczNDAyMDYsMTI3NzkwMjk3
+MCwtMTc5OTY3MDgzMCw5MjY1OTIzNzgsLTEyNDIyMTM2MTYsLT
+k5MTMwODY0LDg4OTA0Mjg3MiwtMTgzNTg4NjYzOSwxNjQwMTky
+Mzc3LC05OTcxNzA4NzcsLTg1MDM3NDgwMywxNDI2NjcwOTE1LD
+EwOTg0ODg5NjEsMTM5OTE4MDA4MSwtNTMzMTg5NDE1LC0yOTg0
+MjcwNjhdfQ==
 -->
