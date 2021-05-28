@@ -43,7 +43,7 @@ The project aim to compare the performance for several kinds of tools used to de
 	- [x] [MAJIQ](https://majiq.biociphers.org/)
 	- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)(Skipped)
 	- [x] [SplAdder](https://github.com/ratschlab/spladder)
-	- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
+	- [x] [Jum](https://github.com/qqwang-berkeley/JUM)
 	- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 - [ ] Create evaluation rules 
 - [ ] Create report rules 
@@ -60,11 +60,11 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjE1MTk5NjIsNjQzMzg1NzMxLC04ND
-U5NTU3OTcsLTUzOTA1NjQyOSwtNzU3NzUyNDU0LC0xNzczNDAy
-MDYsMTI3NzkwMjk3MCwtMTc5OTY3MDgzMCw5MjY1OTIzNzgsLT
-EyNDIyMTM2MTYsLTk5MTMwODY0LDg4OTA0Mjg3MiwtMTgzNTg4
-NjYzOSwxNjQwMTkyMzc3LC05OTcxNzA4NzcsLTg1MDM3NDgwMy
-wxNDI2NjcwOTE1LDEwOTg0ODg5NjEsMTM5OTE4MDA4MSwtNTMz
-MTg5NDE1XX0=
+eyJoaXN0b3J5IjpbLTU0NjUwMzkzOCwtMTE2MTUxOTk2Miw2ND
+MzODU3MzEsLTg0NTk1NTc5NywtNTM5MDU2NDI5LC03NTc3NTI0
+NTQsLTE3NzM0MDIwNiwxMjc3OTAyOTcwLC0xNzk5NjcwODMwLD
+kyNjU5MjM3OCwtMTI0MjIxMzYxNiwtOTkxMzA4NjQsODg5MDQy
+ODcyLC0xODM1ODg2NjM5LDE2NDAxOTIzNzcsLTk5NzE3MDg3Ny
+wtODUwMzc0ODAzLDE0MjY2NzA5MTUsMTA5ODQ4ODk2MSwxMzk5
+MTgwMDgxXX0=
 -->
