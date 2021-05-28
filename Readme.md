@@ -44,7 +44,7 @@ The project aim to compare the performance for several kinds of tools used to de
 	- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)(Skipped)
 	- [x] [SplAdder](https://github.com/ratschlab/spladder)
 	- [x] [Jum](https://github.com/qqwang-berkeley/JUM)
-	- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
+	- [] [Whippet](https://github.com/timbitz/Whippet.jl)
 - [ ] Create evaluation rules 
 - [ ] Create report rules 
  
@@ -60,11 +60,11 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0NjUwMzkzOCwtMTE2MTUxOTk2Miw2ND
-MzODU3MzEsLTg0NTk1NTc5NywtNTM5MDU2NDI5LC03NTc3NTI0
-NTQsLTE3NzM0MDIwNiwxMjc3OTAyOTcwLC0xNzk5NjcwODMwLD
-kyNjU5MjM3OCwtMTI0MjIxMzYxNiwtOTkxMzA4NjQsODg5MDQy
-ODcyLC0xODM1ODg2NjM5LDE2NDAxOTIzNzcsLTk5NzE3MDg3Ny
-wtODUwMzc0ODAzLDE0MjY2NzA5MTUsMTA5ODQ4ODk2MSwxMzk5
-MTgwMDgxXX0=
+eyJoaXN0b3J5IjpbLTEyMDM0MTg3ODIsLTU0NjUwMzkzOCwtMT
+E2MTUxOTk2Miw2NDMzODU3MzEsLTg0NTk1NTc5NywtNTM5MDU2
+NDI5LC03NTc3NTI0NTQsLTE3NzM0MDIwNiwxMjc3OTAyOTcwLC
+0xNzk5NjcwODMwLDkyNjU5MjM3OCwtMTI0MjIxMzYxNiwtOTkx
+MzA4NjQsODg5MDQyODcyLC0xODM1ODg2NjM5LDE2NDAxOTIzNz
+csLTk5NzE3MDg3NywtODUwMzc0ODAzLDE0MjY2NzA5MTUsMTA5
+ODQ4ODk2MV19
 -->
