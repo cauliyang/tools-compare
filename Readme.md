@@ -1,4 +1,4 @@
-## <center> 1. Project Description 
+## <center> 1. Project Description
 ![](https://cdn.jsdelivr.net/gh/cauliyang/blog-image@main//img/20210417053027.png)   
 
 ![](https://img.shields.io/static/v1?label=Python&message=3.6&color=<COLOR>&style=for-the-badge&logo=Python) [![](https://img.shields.io/static/v1?label=Snakemake&message=≥5.7.0&color=<COLOR>&style=for-the-badge&logo=snakemake)](https://github.com/snakemake/snakemake-wrappers/blob/38ad23b0e4f58ce7dbd8d32612157f449ca02c62/docs/index.rst). 
@@ -25,8 +25,8 @@ The project aim to compare the performance for several kinds of tools used to de
 
 [ASimulatoR](https://github.com/biomedbigdata/ASimulatoR) is used to create benchmark data to evaluate the performance of the tools mentioned above.  
 
-- [x] Test using annotation of all chromsomes
-- [x] Download genome file for every chromsome
+- [x] Test using annotation of all chromosomes
+- [x] Download genome file for every chromosome
 - [x] Creat Simple Test data 
 - [x] Construct clean directory
 
