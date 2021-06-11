@@ -1,7 +1,11 @@
 # Add myown 
 .stackedit*
 .idea*
-
+slurm*
+nohup*
+.snakemake/
+fast*
+.pan*
 # Byte-compiled / optimized / DLL files
 
 __pycache__/

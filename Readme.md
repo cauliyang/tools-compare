@@ -38,14 +38,14 @@ The project aim to compare the performance for several kinds of tools used to de
 - [x] Creat and Test simulated data  
 - [x] Create and Test Rna-align rule 
 - [x] Create and Test Run-tools rules
-	- [x] [MISO](http://hollywood.mit.edu/burgelab/miso/)
-	- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
-	- [ ] [MAJIQ](https://majiq.biociphers.org/)
-	- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
-	- [ ] [SplAdder](https://github.com/ratschlab/spladder)
-	- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
-	- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
-- [ ] Create evaluation rules 
+	- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/) (Skipped)
+	- [x]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
+	- [x] [MAJIQ](https://majiq.biociphers.org/)
+	- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)(Skipped)
+	- [x] [SplAdder](https://github.com/ratschlab/spladder)
+	- [x] [Jum](https://github.com/qqwang-berkeley/JUM)
+	- [x] [Whippet](https://github.com/timbitz/Whippet.jl)
+- [x] Create evaluation rules 
 - [ ] Create report rules 
  
 
@@ -60,6 +60,7 @@ The project aim to compare the performance for several kinds of tools used to de
 - [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
 
 <!--stackedit_data:
+<<<<<<< HEAD
 eyJoaXN0b3J5IjpbLTc1Nzc1MjQ1NCwtMTc3MzQwMjA2LDEyNz
 c5MDI5NzAsLTE3OTk2NzA4MzAsOTI2NTkyMzc4LC0xMjQyMjEz
 NjE2LC05OTEzMDg2NCw4ODkwNDI4NzIsLTE4MzU4ODY2MzksMT
@@ -68,3 +69,13 @@ MDkxNSwxMDk4NDg4OTYxLDEzOTkxODAwODEsLTUzMzE4OTQxNS
 wtMjk4NDI3MDY4LC0xMTA1NzcwNjIxLDEwNTc1NjcxOTksLTE1
 NzI1NzU0MzZdfQ==
 -->
+=======
+eyJoaXN0b3J5IjpbNDUwMzY4NTkwLC01NDY1MDM5MzgsLTExNj
+E1MTk5NjIsNjQzMzg1NzMxLC04NDU5NTU3OTcsLTUzOTA1NjQy
+OSwtNzU3NzUyNDU0LC0xNzczNDAyMDYsMTI3NzkwMjk3MCwtMT
+c5OTY3MDgzMCw5MjY1OTIzNzgsLTEyNDIyMTM2MTYsLTk5MTMw
+ODY0LDg4OTA0Mjg3MiwtMTgzNTg4NjYzOSwxNjQwMTkyMzc3LC
+05OTcxNzA4NzcsLTg1MDM3NDgwMywxNDI2NjcwOTE1LDEwOTg0
+ODg5NjFdfQ==
+-->
+>>>>>>> e015cbbc1503dd6e6c11ee3eae683ce9aaf16b35

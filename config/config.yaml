@@ -2,10 +2,10 @@
 # In case of sample based data, it should be complemented by a samples.tsv file that contains
 # one row per sample. It can be parsed easily via pandas.
 samples: "config/samples.tsv"
-wkdir: ''
-resultdir: ''
+wkdir: '/panfs/home/yang4414/li002252/project/tools/wkdir/'
+resultdir: '/panfs/home/yang4414/li002252/project/tools/wkdir/'
 
 fastp:
-  qualified_quality_phred: 30
+  qualified_quality_phred: 20
 
 
