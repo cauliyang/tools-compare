@@ -17,19 +17,19 @@ RESULT_DIR = config["resultdir"]
 
 rule fastp:
     input:
-        get_fastq,
+        get_fastq
     output:
         fq1=WORKING_DIR + "trimmed/" + "{sample}_R1_trimmed.fq.gz",
         fq2=WORKING_DIR + "trimmed/" + "{sample}_R2_trimmed.fq.gz",
-        html=RESULT_DIR + "fastp/{sample}.html",
+        html=RESULT_DIR + "fastp/{sample}.html"
     message:
         "trimming {wildcards.sample} reads"
     threads: 10
     log:
-        RESULT_DIR + "fastp/{sample}.log.txt",
+        RESULT_DIR + "fastp/{sample}.log.txt"
     params:
         sampleName="{sample}",
-        qualified_quality_phred=config["fastp"]["qualified_quality_phred"],
+        qualified_quality_phred=config["fastp"]["qualified_quality_phred"]
     shell:
         "fastp --thread {threads}  --html {output.html} \
                                     --qualified_quality_phred {params.qualified_quality_phred} \
@@ -55,14 +55,14 @@ rule fastp:
 rule hisat_mapping:
     input:
         WORKING_DIR + "trimmed/" + "{sample}_R1_trimmed.fq.gz",
-        WORKING_DIR + "trimmed/" + "{sample}_R2_trimmed.fq.gz",
+        WORKING_DIR + "trimmed/" + "{sample}_R2_trimmed.fq.gz"
     output:
         sam=WORKING_DIR + "mapped/{sample}.bam",
         sum=RESULT_DIR + "logs/{sample}_sum.txt",
-        met=RESULT_DIR + "logs/{sample}_met.txt",
+        met=RESULT_DIR + "logs/{sample}_met.txt"
     params:
         indexName=WORKING_DIR + "genome/genome",
-        sampleName="{sample}",
+        sampleName="{sample}"
     message:
         "mapping reads to genome to bam files."
     threads: 10
