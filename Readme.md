@@ -51,10 +51,10 @@ The project aim to compare the performance for several kinds of tools used to de
 
 ### 2.4 Test Tools for data 
  
-- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
-- [ ]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
-- [ ] [MAJIQ](https://majiq.biociphers.org/)
-- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
-- [ ] [SplAdder](https://github.com/ratschlab/spladder)
-- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
-- [ ] [Whippet](https://github.com/timbitz/Whippet.jl)
+- [x] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+- [x] [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
+- [x] [MAJIQ](https://majiq.biociphers.org/)
+- [x] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
+- [x] [SplAdder](https://github.com/ratschlab/spladder)
+- [x] [Jum](https://github.com/qqwang-berkeley/JUM)
+- [x] [Whippet](https://github.com/timbitz/Whippet.jl)

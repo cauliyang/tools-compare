@@ -4,7 +4,8 @@
 samples: "config/samples.tsv"
 wkdir: &wk '/panfs/home/yang4414/li002252/project/tools/wkdir/'
 resultdir: &res '/panfs/home/yang4414/li002252/project/tools/wkdir/'
-gtf: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/test2.sort.gff3
+gff: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/test2.sort.gff3
+gtf: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/Homo_sapiens.GRCh38.103.chr.gtf
 
 fastp:
   qualified_quality_phred: 20
@@ -19,4 +20,7 @@ majiq:
   script: /atavium/home/yang4414/li002252/miniconda3/envs/majiq/lib/python3.6/site-packages/majiq/run_majiq.py
   configdir: /panfs/home/yang4414/li002252/project/tools/majiq_test
 
+spladder:
 
+whippet:
+  scriptdir: /panfs/home/yang4414/li002252/project/tools/Whippet.jl/bin/

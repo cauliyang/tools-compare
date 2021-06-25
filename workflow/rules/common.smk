@@ -34,6 +34,12 @@ def get_trimmed(wildcards):
         f"{WORKING_DIR}trimmed/{wildcards.sample}_R1_trimmed.fq.gz",
     ]
 
-
 def get_align_result():
     return expand(WORKING_DIR + "mapped/{sample}.sort.bam.bai", sample=samples.index.tolist())
+
+
+def get_bam():
+    return expand(WORKING_DIR + "mapped/{sample}.sort.bam", sample=samples.index.tolist())
+
+#TODO: add a function to generate samples.tsv from simulated directory.
+
