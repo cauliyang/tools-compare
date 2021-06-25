@@ -14,3 +14,9 @@ rmats:
   output:  rmats/output
   nthreads: 8
 
+majiq:
+  lang: /atavium/home/yang4414/li002252/miniconda3/envs/majiq/bin/python
+  script: /atavium/home/yang4414/li002252/miniconda3/envs/majiq/lib/python3.6/site-packages/majiq/run_majiq.py
+  configdir: /panfs/home/yang4414/li002252/project/tools/majiq_test
+
+

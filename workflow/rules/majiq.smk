@@ -14,10 +14,24 @@
 WORKING_DIR = config["wkdir"]
 RESULT_DIR = config["resultdir"]
 GTF = config["gtf"]
+LANG = config["majjq"]["lang"]
+SCRIPT = config["majiq"]["script"]
+CONFIGDIR = config["majiq"]["configdir"]
 
+# rule all:
+#
 
-
-
-
-
+rule majiq:
+    input:
+        CONFIGDIR + "config.cfg"
+    params:
+        lang=LANG,
+        gtf=GTF,
+        script=SCRIPT
+    message:
+        "MAJIQ RUN\n"
+    output:
+        RESULT_DIR + "majiq"
+    shell:
+        "{params.lang} {params.script} {params.gtf} -c {input} -o {output}"
 

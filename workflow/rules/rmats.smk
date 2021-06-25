@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+    #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 """
@@ -18,9 +18,8 @@ B1 = config["rmats"]["b1"]
 OUT = config["rmats"]["output"]
 NTHREADS = config["rmats"]["nthreads"]
 
-rule all:
-    pass
-
+# rule all:
+#
 
 rule rmats:
     input:
@@ -29,6 +28,8 @@ rule rmats:
         tmp=RESULT_DIR + "rmats/tmp_output",
         gtf=GTF,
         threads=NTHREADS
+    message:
+        "RMATS RUN\n"
     output:
         RESULT_DIR + OUT
     shell:
