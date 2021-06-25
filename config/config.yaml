@@ -2,10 +2,15 @@
 # In case of sample based data, it should be complemented by a samples.tsv file that contains
 # one row per sample. It can be parsed easily via pandas.
 samples: "config/samples.tsv"
-wkdir: '/panfs/home/yang4414/li002252/project/tools/wkdir/'
-resultdir: '/panfs/home/yang4414/li002252/project/tools/wkdir/'
+wkdir: &wk '/panfs/home/yang4414/li002252/project/tools/wkdir/'
+resultdir: &res '/panfs/home/yang4414/li002252/project/tools/wkdir/'
+gtf: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/test2.sort.gff3
 
 fastp:
   qualified_quality_phred: 20
 
+rmats:
+  b1: /panfs/home/yang4414/li002252/project/tools/rmats_test/samples.txt
+  output:  rmats/output
+  nthreads: 8
 
