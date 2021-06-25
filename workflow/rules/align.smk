@@ -13,41 +13,6 @@
 
 WORKING_DIR = config["wkdir"]
 RESULT_DIR = config["resultdir"]
-# rule fastp:
-#     input:
-#         get_fastq,
-#     output:
-#         fq1=WORKING_DIR + "trimmed/" + "{sample}_R1_trimmed.fq.gz",
-#         fq2=WORKING_DIR + "trimmed/" + "{sample}_R2_trimmed.fq.gz",
-#         html=RESULT_DIR + "fastp/{sample}.html",
-#     message:
-#         "trimming {wildcards.sample} reads"
-#     threads: 10
-#     log:
-#         RESULT_DIR + "fastp/{sample}.log.txt",
-#     params:
-#         sampleName="{sample}",
-#         qualified_quality_phred=config["fastp"]["qualified_quality_phred"],
-#     shell:
-#         "fastp --thread {threads}  --html {output.html} \
-#                                     --qualified_quality_phred {params.qualified_quality_phred} \
-#                                     --detect_adapter_for_pe \
-#                                     --in1 {input[0]} --in2 {input[1]} --out1 {output.fq1} --out2 {output.fq2}; \
-#                                     2> {log}"
-
-#
-# rule index:
-#     input:
-#         WORKING_DIR + "genome/genome.fasta",
-#     output:
-#         [WORKING_DIR + "genome/genome." + str(i) + ".ht2" for i in range(1, 9)],
-#     message:
-#         "indexing genome"
-#     params:
-#         WORKING_DIR + "genome/genome",
-#     threads: 10
-#     shell:
-#         "hisat2-build -p {threads} {input} {params} --quiet"
 
 
 rule mapping:
