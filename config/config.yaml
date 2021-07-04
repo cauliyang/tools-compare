@@ -7,6 +7,11 @@ resultdir: &res '/panfs/home/yang4414/li002252/project/tools/wkdir/'
 gff: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/test2.sort.gff3
 gtf: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/Homo_sapiens.GRCh38.103.chr.gtf
 
+simulator:
+  dir: /panfs/home/yang4414/li002252/project/tools/simulate/
+  chrom: 1
+  output: out
+
 fastp:
   qualified_quality_phred: 20
 

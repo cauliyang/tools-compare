@@ -20,7 +20,6 @@ validate(samples, schema="../schemas/samples.schema.yaml")
 WORKING_DIR = config["wkdir"]
 RESULT_DIR = config["resultdir"]
 
-
 def get_fastq(wildcards):
     """This function checks if the sample has paired end or single end reads
     and returns 1 or 2 names of the fastq files"""
@@ -42,4 +41,5 @@ def get_bam():
     return expand(WORKING_DIR + "mapped/{sample}.sort.bam", sample=samples.index.tolist())
 
 #TODO: add a function to generate samples.tsv from simulated directory.
-
+def simulate_samples():
+    pass
