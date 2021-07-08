@@ -1,7 +1,7 @@
 from workflow.scripts.simulator import creat_samples
 from snakemake.utils import validate
 import pandas as pd
-
+from pathlib import Path
 
 # this container defines the underlying OS for each job when using the workflow
 # with --use-conda --use-singularity
