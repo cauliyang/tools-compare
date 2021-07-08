@@ -6,6 +6,11 @@ import pandas as pd
 # with --use-conda --use-singularity
 singularity: "docker://continuumio/miniconda3"
 
+
+rule all:
+    input:
+        "config/samples.tsv"
+
 rule creat_samples:
     input:
         config['simulator']['outdir'] + config['simulator']['outname']
