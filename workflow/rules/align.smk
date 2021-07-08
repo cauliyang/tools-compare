@@ -15,13 +15,6 @@ WORKING_DIR = config["wkdir"]
 RESULT_DIR = config["resultdir"]
 
 
-rule creat_samples:
-    input:
-        config['simulator']['outdir'] + config['simulator']['outname']
-    output:
-        "config/samples.tsv"
-    script:
-        "scripts/simulator.py"
 
 rule mapping:
     input:
