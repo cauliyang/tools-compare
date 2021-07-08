@@ -10,6 +10,20 @@ singularity: "docker://continuumio/miniconda3"
 WORKING_DIR = config["wkdir"]
 RESULT_DIR = config["resultdir"]
 
+rule creat_samples:
+    input:
+        config['simulator']['outdir'] + config['simulator']['outname']
+    output:
+        "config/samples.tsv"
+    message:
+        "creat samples"
+    script:
+        "scripts/simulator.py"
+
+
+
+
+
 include: "rules/common.smk"
 include: "rules/align.smk"
 
