@@ -12,10 +12,11 @@
 from pathlib import Path
 import pandas as pd
 
-files = "sim_rep_info.txt" # file path of "sim_rep_info.txt"
+files = "sim_rep_info.txt"  # file path of "sim_rep_info.txt"
 
-PATH = Path(snakemake.input)
-CONFIG_PATH = snakemake.output # path of config
+PATH = Path(snakemake.input)   # file path of out of simulation
+
+CONFIG_PATH = snakemake.output  # path of config
 
 sample = pd.read_csv(PATH/files, sep='\t')
 

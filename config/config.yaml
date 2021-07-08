@@ -10,8 +10,8 @@ gff: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/test2.sort.gff3
 gtf: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/Homo_sapiens.GRCh38.103.chr.gtf
 
 simulator:
-  dicrec: 2021-07-08-11:39:11_maxGenes2_SeqDepth2e+06_errRate0.001_readlen50_multiEventsPerExonFALSE_probsAsFreqFALSE
-  outdir: /panfs/home/yang4414/li002252/project/tools/simulate/out
+  outname: 2021-07-08-11:39:11_maxGenes2_SeqDepth2e+06_errRate0.001_readlen50_multiEventsPerExonFALSE_probsAsFreqFALSE
+  outdir: /panfs/home/yang4414/li002252/project/tools/simulate/out/
   chrom: 1
 
 
