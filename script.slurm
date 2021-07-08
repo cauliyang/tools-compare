@@ -14,5 +14,6 @@ set -o nounset
 set -o errexit 
 set -x 
 
+# creat samples.tsv
 python workflow/scripts/simulator.py
-snakemake --cluster "sbatch  --partition=amd --nodes=1  --time=10:00:00 --mem=30gb --mail-user=li002252@umn.edu" -s workflow/Snakefile -j 6
+snakemake --cluster "sbatch  --partition=amd --nodes=1  --time=10:00:00 --mem=30gb --mail-user=li002252@umn.edu" -s workflow/Snakefile -j 2
