@@ -12,20 +12,6 @@ singularity: "docker://continuumio/miniconda3"
 ##### load config and sample sheets #####
 
 
-creat_samples(config['simulator']['outdir'] + config['simulator']['outname'], "config/samples.tsv")
-
-validate(config, schema="../schemas/config.schema.yaml")
-
-samples = pd.read_csv(config["samples"], sep="\t").set_index("samples", drop=False)
-
-samples.index.names = ["sample_id"]
-validate(samples, schema="../schemas/samples.schema.yaml")
-
-
-WORKING_DIR = config["wkdir"]
-RESULT_DIR = config["resultdir"]
-
-
 def creat_samples(path, config_path):
     files = "sim_rep_info.txt"  # file path of "sim_rep_info.txt"
     path = Path(path)
@@ -39,6 +25,20 @@ def creat_samples(path, config_path):
     df = sample.loc[:, ['rep_id', 'fq1', 'fq2', 'group']].rename({'rep_id': 'samples'}, axis=1)
     df.to_csv(config_path, index=False, sep='\t')
 
+
+
+creat_samples(config['simulator']['outdir'] + config['simulator']['outname'], "config/samples.tsv")
+
+validate(config, schema="../schemas/config.schema.yaml")
+
+samples = pd.read_csv(config["samples"], sep="\t").set_index("samples", drop=False)
+
+samples.index.names = ["sample_id"]
+validate(samples, schema="../schemas/samples.schema.yaml")
+
+
+WORKING_DIR = config["wkdir"]
+RESULT_DIR = config["resultdir"]
 
 
 def get_fastq(wildcards):
