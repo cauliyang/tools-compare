@@ -7,20 +7,6 @@ import pandas as pd
 singularity: "docker://continuumio/miniconda3"
 
 
-rule all:
-    input:
-        "config/samples.tsv"
-
-rule creat_samples:
-    input:
-        config['simulator']['outdir'] + config['simulator']['outname']
-    output:
-        "config/samples.tsv"
-    message:
-        "creat samples"
-    script:
-        "scripts/simulator.py"
-
 
 ##### load config and sample sheets #####
 
