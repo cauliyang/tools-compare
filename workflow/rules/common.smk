@@ -1,3 +1,4 @@
+from workflow.scripts.simulator import creat_samples
 from snakemake.utils import validate
 import pandas as pd
 
@@ -9,6 +10,8 @@ singularity: "docker://continuumio/miniconda3"
 
 
 ##### load config and sample sheets #####
+
+creat_samples(config['simulator']['outdir'] + config['simulator']['outname'], "config/samples.tsv")
 
 validate(config, schema="../schemas/config.schema.yaml")
 

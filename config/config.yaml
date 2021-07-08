@@ -1,7 +1,6 @@
 # This file should contain everything to configure the workflow on a global scale.
 # In case of sample based data, it should be complemented by a samples.tsv file that contains
 # one row per sample. It can be parsed easily via pandas.
-configdir:
 
 samples: config/samples.tsv
 wkdir: /panfs/home/yang4414/li002252/project/tools/wkdir/
@@ -13,7 +12,6 @@ simulator:
   outname: 2021-07-08-11:39:11_maxGenes2_SeqDepth2e+06_errRate0.001_readlen50_multiEventsPerExonFALSE_probsAsFreqFALSE
   outdir: /panfs/home/yang4414/li002252/project/tools/simulate/out/
   chrom: 1
-
 
 fastp:
   qualified_quality_phred: 20
