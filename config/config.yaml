@@ -1,16 +1,19 @@
 # This file should contain everything to configure the workflow on a global scale.
 # In case of sample based data, it should be complemented by a samples.tsv file that contains
 # one row per sample. It can be parsed easily via pandas.
-samples: "config/samples.tsv"
-wkdir: &wk '/panfs/home/yang4414/li002252/project/tools/wkdir/'
-resultdir: &res '/panfs/home/yang4414/li002252/project/tools/wkdir/'
+configdir:
+
+samples: config/samples.tsv
+wkdir: /panfs/home/yang4414/li002252/project/tools/wkdir/
+resultdir: /panfs/home/yang4414/li002252/project/tools/wkdir/
 gff: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/test2.sort.gff3
 gtf: /panfs/home/yang4414/li002252/project/tools/wkdir/genome/Homo_sapiens.GRCh38.103.chr.gtf
 
 simulator:
-  dir: /panfs/home/yang4414/li002252/project/tools/simulate/
+  dicrec: 2021-07-08-11:39:11_maxGenes2_SeqDepth2e+06_errRate0.001_readlen50_multiEventsPerExonFALSE_probsAsFreqFALSE
+  outdir: /panfs/home/yang4414/li002252/project/tools/simulate/out
   chrom: 1
-  output: out
+
 
 fastp:
   qualified_quality_phred: 20

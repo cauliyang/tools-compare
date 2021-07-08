@@ -11,19 +11,19 @@
 """
 from pathlib import Path
 import pandas as pd
-import sys
 
-files = sys.argv[1] # file path of "sim_rep_info.txt"
-PATH = sys.argv[2]
-CONFIG_PATH = sys.argv[3]
+files = "sim_rep_info.txt" # file path of "sim_rep_info.txt"
 
-sample = pd.read_csv(files, sep='\t')
+PATH = Path(snakemake.input)
+CONFIG_PATH = snakemake.output # path of config
+
+sample = pd.read_csv(PATH/files, sep='\t')
 
 sample['fq1'] = sample.rep_id.map(lambda x: f'{Path}/{x}_1.fastq')
 sample['fq2'] = sample.rep_id.map(lambda x: f'{Path}/{x}_2.fastq')
 
-df = sample.loc[:, ['rep_id', 'fq1', 'fq2']].rename({'rep_id':'samples'}, axis=1)
+df = sample.loc[:, ['rep_id', 'fq1', 'fq2', 'group']].rename({'rep_id':'samples'}, axis=1)
 
-df.to_csv(f'{CONFIG_PATH}/samples.tsv', index=False, sep='\t')
+df.to_csv(CONFIG_PATH, index=False, sep='\t')
 
 

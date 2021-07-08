@@ -13,9 +13,12 @@ properties:
   fq2:
     type: string
     description: path of read  2
-
+  group:
+    type: int
+    description: groups of samples
 # columns that the config/samples.tsv file must have to pass schema validation
 required:
   - samples
   - fq1
   - fq2
+  - group
