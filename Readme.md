@@ -39,22 +39,38 @@ The project aim to compare the performance for several kinds of tools used to de
 - [x] Create and Test Rna-align rule 
 - [x] Create and Test Run-tools rules
 	- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/) (Skipped)
-	- [x]  [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
+	- [x] [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
 	- [x] [MAJIQ](https://majiq.biociphers.org/)
 	- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)(Skipped)
 	- [x] [SplAdder](https://github.com/ratschlab/spladder)
-	- [x] [Jum](https://github.com/qqwang-berkeley/JUM)
+	- [x] [Jum](https://github.com/qqwang-berkeley/JUM)(Skipped)
 	- [x] [Whippet](https://github.com/timbitz/Whippet.jl)
 - [x] Create evaluation rules 
 - [ ] Create report rules 
- 
 
-### 2.4 Test Tools for data 
+
+## 3. Problem 
+
+1. MISO 
+
+MISO cannot detect alternative splicing events. 
+
+2. LeafCutter 
+
+LeafCutter cannot detect alternative splicing events. 
+
+3. Jum 
+
+Jum must need alignment files from STAR 
+
+
+
+## 4. Test Tools for data 
  
-- [x] [MISO](http://hollywood.mit.edu/burgelab/miso/)
+- [ ] [MISO](http://hollywood.mit.edu/burgelab/miso/)
 - [x] [rMATs](http://rnaseq-mats.sourceforge.net/index.html) 
 - [x] [MAJIQ](https://majiq.biociphers.org/)
-- [x] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
+- [ ] [LeafCutter](https://davidaknowles.github.io/leafcutter/)
 - [x] [SplAdder](https://github.com/ratschlab/spladder)
-- [x] [Jum](https://github.com/qqwang-berkeley/JUM)
+- [ ] [Jum](https://github.com/qqwang-berkeley/JUM)
 - [x] [Whippet](https://github.com/timbitz/Whippet.jl)

@@ -15,15 +15,16 @@ WORKING_DIR = config["wkdir"]
 RESULT_DIR = config["resultdir"]
 GTF = config["gtf"]
 B1 = config["rmats"]["b1"]
+B2 = config["rmats"]["b2"]
 OUT = config["rmats"]["output"]
 NTHREADS = config["rmats"]["nthreads"]
 
 # rule all:
-#
 
 rule rmats:
     input:
-        B1
+        b1=B1,
+        b2=B2,
     params:
         tmp=RESULT_DIR + "rmats/tmp_output",
         gtf=GTF,
@@ -33,7 +34,7 @@ rule rmats:
     output:
         RESULT_DIR + OUT
     shell:
-        "run_rmats --b1 {input} --gtf {params.gtf}\
+        "run_rmats --b1 {input.b1} --b2 {input.b2} --gtf {params.gtf}\
           -t paired --readLength 50 --nthread {params.threads} --od {output} --tmp {params.tmp}"
 
 
