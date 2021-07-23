@@ -12,6 +12,10 @@
 from pathlib import Path
 import pandas as pd
 import yaml
+import os
+
+def simulator():
+    pass
 
 
 def main(path, config_path):
