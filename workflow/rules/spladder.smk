@@ -19,17 +19,20 @@ GTF = config["gtf"]
 # rule all:
 #
 
-rule spladder:
+rule spladder_build:
     input:
         get_bam
     params:
-        gtf=GTF
+        gtf=GTF,
+        readlen=50
     message:
         "spladder RUN\n"
     output:
         RESULT_DIR + "spladder"
     shell:
-        "spladder build --bams {input}  --annotation  {params.gtf} --outdir {output}"
+        "spladder build --bams {input}  --annotation  {params.gtf} -n {params.readlen} --outdir {output}"
+
+rule spladder_
 
 
 

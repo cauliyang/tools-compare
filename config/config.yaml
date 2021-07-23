@@ -18,7 +18,8 @@ fastp:
   qualified_quality_phred: 20
 
 rmats:
-  b1: /panfs/home/yang4414/li002252/project/tools/rmats_test/samples.txt
+  b1: /panfs/home/yang4414/li002252/project/tools/rmats_test/samples_b1.txt
+  b2: /panfs/home/yang4414/li002252/project/tools/rmats_test/samples_b2.txt
   output:  rmats/output
   nthreads: 8
 
