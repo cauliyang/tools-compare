@@ -172,7 +172,7 @@ if __name__ == "__main__":
         seed=simulator_config["seed"],
     )
 
-    logger.info(f"Finishing simulator\n {simulator_config}")
+    logger.info(f"Finishing simulator\n {simulator_config}\n{outdir}")
 
     creat_samples(outdir, "config/samples.tsv")
     logger.info(f"Creating samples.tsv")

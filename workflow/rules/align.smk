@@ -15,7 +15,6 @@ WORKING_DIR = config["wkdir"]
 RESULT_DIR = config["resultdir"]
 
 
-
 rule mapping:
     input:
         get_fastq,
