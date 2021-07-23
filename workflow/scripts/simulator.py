@@ -60,11 +60,10 @@ def simulator(
     ncores=8,
     seed=42,
 ):
-    r = robjects.r
     as_events = ("es", "ir", "a3", "a5", "mes", "mee", "ale", "afe")
     event_prob = list(map(lambda x: 1 if x == event else 0, as_events))
 
-    cmd = f"""
+    parameters = f"""
     # Note: contains the chromosomes fasta file and the genome annotation (in gtf or gff3 format)
     input = "{simulatedir}/{chrom}" #path to the input folder. 
     output = "{simulatedir}/out" #path to the output folder
@@ -126,20 +125,20 @@ def simulator(
       readlen = readlen,
       multi_events_per_exon = multi_events_per_exon,
       probs_as_freq = probs_as_freq,
-      num_reps = num_reps
-      
+      num_reps = num_reps)
+
     library(ASimulatoR)
     do.call(simulate_alternative_splicing, params) #simulate RNA-Seq datasets
-    
+
     ### copy this script to output folder for reproducibility ----
     # rscript = sub('--file=', '', commandArgs()[4], fixed = T)
     # bn_rscript = basename(rscript)
     # file.copy(rscript, file.path(outdir, bn_rscript)) 
     """
     # print(parameters)
-    r(cmd)
-    outdir = r.outdir
-    return outdir
+    robjects.r(parameters)
+    outdir = robjects.r.outdir
+    return outdir[0]
 
 
 def creat_samples(path, config_path):
