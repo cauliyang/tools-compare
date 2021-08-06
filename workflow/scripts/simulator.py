@@ -18,6 +18,11 @@ import logging
 
 
 def get_logger(logger_name, create_file=False):
+    """
+    :param logger_name: logger
+    :param create_file: if create log file
+    :return: logger
+    """
     # create logger for prd_ci
     log = logging.getLogger(logger_name)
 
@@ -60,6 +65,17 @@ def simulator(
     ncores=8,
     seed=42,
 ):
+    """
+    :param simulatedir: directory of simulator
+    :param event: type of splicing event
+    :param max_genes: numbers of events
+    :param seq_depth: sequence depth of reads
+    :param readlen: length of reads
+    :param chrom:  chromosome of simulated data
+    :param ncores: numbers of threads
+    :param seed: random seed
+    :return: directory of simulated data
+    """
     as_events = ("es", "ir", "a3", "a5", "mes", "mee", "ale", "afe")
     event_prob = list(map(lambda x: 1 if x == event else 0, as_events))
 
@@ -96,7 +112,7 @@ def simulator(
     #event_probs = rep(1/(length(as_combs) + 1), length(as_combs))
     #names(event_probs) = as_combs
     
-    #custom combinations of events; custom distributio
+    #custom combinations of events; custom distribution
     #event_probs = setNames(c(0.060, 0.078, 0.098), c('a5,a3', 'a3,es,ir', 'es,mes'))
     
 
@@ -142,6 +158,11 @@ def simulator(
 
 
 def creat_samples(path, config_path):
+    """
+    :param path: path of simulated data
+    :param config_path: path of config file
+    :return: None
+    """
     files = "sim_rep_info.txt"  # file path of "sim_rep_info.txt"
     path = Path(path)
     # PATH = Path(snakemake.input)  # file path of out of simulation

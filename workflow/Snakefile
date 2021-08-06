@@ -12,7 +12,6 @@ RESULT_DIR = config["resultdir"]
 
 
 
-
 include: "rules/common.smk"
 include: "rules/align.smk"
 
