@@ -165,9 +165,6 @@ def creat_samples(path, config_path):
     """
     files = "sim_rep_info.txt"  # file path of "sim_rep_info.txt"
     path = Path(path)
-    # PATH = Path(snakemake.input)  # file path of out of simulation
-    #
-    # CONFIG_PATH = snakemake.output  # path of config
 
     sample = pd.read_csv(path / files, sep="\t")
     sample["fq1"] = sample.rep_id.map(lambda x: f"{str(path)}/{x}_1.fastq")
