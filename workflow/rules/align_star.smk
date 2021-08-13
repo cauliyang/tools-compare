@@ -15,30 +15,31 @@ WORKING_DIR = config["wkdir"]
 RESULT_DIR = config["resultdir"]
 
 
-rule hisat2_mapping:
+rule star_mapping:
     input:
         get_fastq,
-        # WORKING_DIR + "trimmed/" + "{sample}_R1_trimmed.fq.gz",
-        # WORKING_DIR + "trimmed/" + "{sample}_R2_trimmed.fq.gz",
     output:
         sam=WORKING_DIR + "mapped/{sample}.sam",
         sum=RESULT_DIR + "logs/{sample}_sum.txt",
         met=RESULT_DIR + "logs/{sample}_met.txt"
     params:
-        indexName=WORKING_DIR + "genome/genome_snp_tran",
+        threads=40,
+        indexdir=WORKING_DIR + "genome/",
         sampleName="{sample}",
     message:
         "mapping reads to genome "
-    threads: 10
     shell:
-        "hisat2 -p {threads} --summary-file {output.sum} --met-file {output.met} -x {params.indexName} \
-                                    -1 {input[0]} -2 {input[1]} -S {output.sam}"
-
-
+        "STAR --runThreadN {params.threads} --runMode alignReads \
+        --quantMode TranscriptomeSAM GeneCounts \
+        --twopassMode Basic \
+        --outSAMunmapped None \
+        --genomeDir {params.indexdir} \
+        --readFilesIn  {input[0]} {input[1]}\
+        --outFileNamePrefix {params.sampleName}_"
 
 rule sam2bam:
     input:
-        WORKING_DIR + "mapped/{sample}.sam"
+        WORKING_DIR + "mapped/{sample}_Aligned.out.sam"
     output:
         WORKING_DIR + "mapped/{sample}.bam"
     params:
